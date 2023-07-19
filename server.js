@@ -14,5 +14,6 @@ app.use("/record", records);
 
 
 app.listen(PORT, () => {
+  console.log('database connected')
   console.log(`Server is running on port: ${PORT}`);
 });
